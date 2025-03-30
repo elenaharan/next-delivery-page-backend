@@ -1,5 +1,5 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import * as users from '../data/data.json';
+import * as users from './data/data.json';
 
 @Controller('comms')
 export class CommsController {
